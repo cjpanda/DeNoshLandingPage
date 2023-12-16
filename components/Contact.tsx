@@ -21,7 +21,7 @@ const Contact = () => {
             />
           </div>
           {/* Form */}
-          <form className="flex flex-1 flex-col gap-y-5 w-full sm:w-[80%] ">
+          <form className="flex flex-1 flex-col gap-y-5 w-full sm:w-[80%] padding-x">
             <h1 className="h2 text-primary text-center xl:text-left">
               Get In Touch With Us
             </h1>
