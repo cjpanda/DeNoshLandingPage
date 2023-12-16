@@ -4,12 +4,12 @@ import CustomButton from "./CustomButton";
 const Contact = () => {
   return (
     <section
-      className="flex items-center w-full pt-[60px] xl:pt-[120px] pb-[60px] h-full  padding-x"
+      className="flex items-center w-full pt-[60px] xl:pt-[120px] pb-[60px] h-full padding-x"
       id="contact"
     >
       <div className="container mx-auto">
         {/* Form and Image Container */}
-        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-between h-full w-full gap-[50px]">
+        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-between h-full gap-[50px]">
           {/* Image  */}
           <div className="pt-10 rounded-[20px] padding-y ">
             <Image
@@ -21,7 +21,7 @@ const Contact = () => {
             />
           </div>
           {/* Form */}
-          <form className="flex flex-1 flex-col gap-y-5  ">
+          <form className="flex flex-1 flex-col gap-y-5 w-full ">
             <h1 className="h2 text-primary text-center xl:text-left">
               Get In Touch With Us
             </h1>
