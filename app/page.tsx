@@ -1,4 +1,11 @@
-import { Contact, Featured, Hero, HowToMake, Reviews } from "@/components";
+import {
+  BackToTop,
+  Contact,
+  Featured,
+  Hero,
+  HowToMake,
+  Reviews,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +15,7 @@ export default function Home() {
       <HowToMake />
       <Reviews />
       <Contact />
+      <BackToTop />
     </main>
   );
 }

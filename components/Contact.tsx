@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         {/* Form and Image Container */}
-        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-between h-full gap-[50px]">
+        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-between h-full gap-[50px] w-full">
           {/* Image  */}
           <div className="pt-10 rounded-[20px] padding-y ">
             <Image
@@ -27,7 +27,7 @@ const Contact = () => {
             </h1>
             <fieldset
               id="form"
-              className="flex flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px] sm:w-[70%]"
+              className="flex flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px] "
             >
               <div className="flex flex-col ">
                 <label htmlFor="full-name">Full Name:</label>
@@ -87,7 +87,7 @@ const Contact = () => {
             <CustomButton
               title="Submit"
               btnType="submit"
-              containerStyles="bg-primary hover:bg-primary-hover text-white rounded-xl mt-10 uppercase btn-lg btn sm:w-[70%]"
+              containerStyles="bg-primary hover:bg-primary-hover text-white rounded-xl mt-10 uppercase btn-lg btn "
             />
           </form>
         </div>

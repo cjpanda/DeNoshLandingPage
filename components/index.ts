@@ -6,7 +6,7 @@ import Reviews from "./Reviews";
 import Footer from "./Footer";
 import HowToMake from "./HowToMake";
 import ReviewSlider from "./ReviewSlider";
-
+import BackToTop from "./BackToTop";
 export {
   Hero,
   Featured,
@@ -16,4 +16,5 @@ export {
   Footer,
   HowToMake,
   ReviewSlider,
+  BackToTop,
 };
