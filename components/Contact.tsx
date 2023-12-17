@@ -21,13 +21,13 @@ const Contact = () => {
             />
           </div>
           {/* Form */}
-          <form className="flex  flex-col gap-y-5 w-full sm:w-[50%]  paddding-y padding-x">
+          <form className="flex  flex-col gap-y-5 w-full   paddding-y padding-x">
             <h1 className="h2 text-primary text-center xl:text-left">
               Get In <span className="text-secondary">Touch With Us</span>
             </h1>
             <fieldset
               id="form"
-              className="flex flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px]"
+              className="flex flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px] sm:w-[70%]"
             >
               <div className="flex flex-col ">
                 <label htmlFor="full-name">Full Name:</label>
@@ -87,7 +87,7 @@ const Contact = () => {
             <CustomButton
               title="Submit"
               btnType="submit"
-              containerStyles="bg-primary hover:bg-primary-hover text-white rounded-xl mt-10 uppercase btn-lg btn"
+              containerStyles="bg-primary hover:bg-primary-hover text-white rounded-xl mt-10 uppercase btn-lg btn sm:w-[70%]"
             />
           </form>
         </div>
