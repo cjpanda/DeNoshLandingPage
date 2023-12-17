@@ -7,7 +7,7 @@ const Reviews = () => {
       className=" w-full h-full pt-[60px] xl:pt-[120px] xl:pb-[60px] flex items-center bg-white"
       id="reviews"
     >
-      <div className="container mx-auto padding-x">
+      <div className="container mx-auto padding-x padding-y ">
         <ReviewSlider />
       </div>
     </section>
