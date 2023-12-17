@@ -21,13 +21,13 @@ const Contact = () => {
             />
           </div>
           {/* Form */}
-          <form className="flex flex-1 flex-col gap-y-5 w-full sm:w-[80%] padding-x">
+          <form className="flex flex-col  padding-y gap-y-5 padding-x">
             <h1 className="h2 text-primary text-center xl:text-left">
               Get In Touch With Us
             </h1>
             <fieldset
               id="form"
-              className="flex flex-1 flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px]"
+              className="flex flex-col w-full gap-y-5 text-primary font-semibold shadow-xl p-5 rounded-[20px]"
             >
               <div className="flex flex-col ">
                 <label htmlFor="full-name">Full Name:</label>
