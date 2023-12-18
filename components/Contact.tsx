@@ -11,7 +11,7 @@ const Contact = () => {
         {/* Form and Image Container */}
         <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-between h-full gap-[50px] w-full">
           {/* Image  */}
-          <div className="pt-10 rounded-[20px] padding-y ">
+          {/* <div className="pt-10 rounded-[20px] padding-y ">
             <Image
               src="/denosh.jpg"
               alt=""
@@ -19,9 +19,9 @@ const Contact = () => {
               height={200}
               className="object-contain rounded-[50px]"
             />
-          </div>
+          </div> */}
           {/* Form */}
-          <form className="flex  flex-col gap-y-5 w-full   paddding-y padding-x">
+          <form className="flex flex-col justify-center items-center gap-y-5 w-full paddding-y padding-x pt-10 pb-10">
             <h1 className="h2 text-primary text-center xl:text-left">
               Get In <span className="text-secondary">Touch With Us</span>
             </h1>
