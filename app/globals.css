@@ -100,13 +100,13 @@ p {
 
 /* Start: Button Styles  */
 .btn {
-  @apply rounded-[20px] w-full uppercase font-medium text-white tracking-[2px] text-[17px] flex justify-center items-center transition-all duration-300;
+  @apply rounded-[10px] w-full uppercase font-medium text-white tracking-[2px] text-[17px] flex justify-center items-center transition-all duration-300;
 }
 .btn-sm {
-  @apply h-14;
+  @apply h-12;
 }
 .btn-lg {
-  @apply h-16;
+  @apply h-14;
 }
 .btn-cta {
   @apply bg-primary h-[54px] rounded-[5px] px-4 transition-all duration-300;

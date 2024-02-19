@@ -17,12 +17,12 @@ const Contact = () => {
               alt=""
               width={550}
               height={200}
-              className="object-contain rounded-[50px]"
+              className="object-contain rounded-[20px]"
             />
           </div>
           {/* Form */}
-          <div className="w-1/8">
-            <form className="flex flex-col justify-center items-center gap-y-5 w-full paddding-y padding-x pt-10 pb-10">
+          <div className="w-50%">
+            <form className="flex flex-col justify-center items-center w-full paddding-y pt-10 pb-10">
               <h1 className="h2 text-primary text-center xl:text-left">
                 Get In <span className="text-secondary">Touch With Us</span>
               </h1>
@@ -74,7 +74,7 @@ const Contact = () => {
                     id="message"
                     rows={10}
                     cols={30}
-                    placeholder="Message"
+                    placeholder="Give us your feedback"
                     required
                     className="bg-background outline-none h-10 border rounded-lg pl-2 pt-2 focus:border-primary  border-primary border-opacity-50"
                   ></textarea>

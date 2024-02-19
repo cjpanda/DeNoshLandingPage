@@ -54,13 +54,13 @@ const HowToMake = () => {
             </div>
           </div>
           {/* Image */}
-          <div className="pt-10 rounded-[20px] padding-y">
+          <div className="pt-10 rounded-[10px] padding-y">
             <Image
               src="/testimonials.jpg"
               alt=""
               width={600}
               height={448}
-              className="object-contain rounded-[50px]"
+              className="object-contain rounded-[10px]"
             />
           </div>
         </div>
